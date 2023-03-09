@@ -1,2 +1,2 @@
-#!/bin/bash
-Effective username: $(whoami)
+!#/bin/bash
+whoami
