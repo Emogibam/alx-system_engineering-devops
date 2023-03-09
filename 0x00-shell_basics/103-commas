@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1pA | sed -e s/([^/])$/1// -e 1s/^/.n/ | LC_COLLATE=C sort -df | sed -e 1s/^..// | tr n ,
